@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C72E5751562AC0500AFAE35 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C72E5741562AC0500AFAE35 /* CoreTelephony.framework */; };
+		6C72E5781562AEE600AFAE35 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C72E5771562AEE600AFAE35 /* MediaPlayer.framework */; };
+		6C884FBA154FDBEE001CA7EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C884FB9154FDBEE001CA7EA /* UIKit.framework */; };
+		6C884FBC154FDBEE001CA7EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C884FBB154FDBEE001CA7EA /* Foundation.framework */; };
+		6C884FBE154FDBEE001CA7EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C884FBD154FDBEE001CA7EA /* CoreGraphics.framework */; };
+		6C884FC4154FDBEE001CA7EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FC2154FDBEE001CA7EA /* InfoPlist.strings */; };
+		6C884FC6154FDBEE001CA7EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C884FC5154FDBEE001CA7EA /* main.m */; };
+		6C884FCA154FDBEE001CA7EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C884FC9154FDBEE001CA7EA /* AppDelegate.m */; };
+		6C884FD3154FDCD5001CA7EA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C884FD1154FDCD5001CA7EA /* MainViewController.m */; };
+		6C884FD4154FDCD5001CA7EA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FD2154FDCD5001CA7EA /* MainViewController.xib */; };
+		6C884FD8154FDE13001CA7EA /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FD7154FDE13001CA7EA /* home.jpg */; };
+		6C884FDA154FDE19001CA7EA /* 110.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FD9154FDE19001CA7EA /* 110.gif */; };
+		6C884FDC154FDE1F001CA7EA /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FDB154FDE1F001CA7EA /* love.png */; };
+		6C884FDF154FDF0B001CA7EA /* 119.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FDE154FDF0B001CA7EA /* 119.png */; };
+		6C884FE3154FE372001CA7EA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C884FE1154FE372001CA7EA /* SettingsViewController.m */; };
+		6C884FE4154FE372001CA7EA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FE2154FE372001CA7EA /* SettingsViewController.xib */; };
+		6C884FEF155006BA001CA7EA /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FE9155006BA001CA7EA /* Icon-72.png */; };
+		6C884FF0155006BA001CA7EA /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FEA155006BA001CA7EA /* Icon-Small-50.png */; };
+		6C884FF1155006BA001CA7EA /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FEB155006BA001CA7EA /* Icon-Small.png */; };
+		6C884FF2155006BA001CA7EA /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FEC155006BA001CA7EA /* Icon-Small@2x.png */; };
+		6C884FF3155006BA001CA7EA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FED155006BA001CA7EA /* Icon.png */; };
+		6C884FF4155006BA001CA7EA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FEE155006BA001CA7EA /* Icon@2x.png */; };
+		6C884FF715500907001CA7EA /* 112.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FF615500907001CA7EA /* 112.jpg */; };
+		6C884FF915500E28001CA7EA /* emergency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C884FF815500E28001CA7EA /* emergency.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C72E5741562AC0500AFAE35 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6C72E5771562AEE600AFAE35 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6C884FB5154FDBEE001CA7EA /* EmergentCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergentCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C884FB9154FDBEE001CA7EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C884FBB154FDBEE001CA7EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C884FBD154FDBEE001CA7EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C884FC1154FDBEE001CA7EA /* EmergentCall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmergentCall-Info.plist"; sourceTree = "<group>"; };
+		6C884FC3154FDBEE001CA7EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C884FC5154FDBEE001CA7EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C884FC7154FDBEE001CA7EA /* EmergentCall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmergentCall-Prefix.pch"; sourceTree = "<group>"; };
+		6C884FC8154FDBEE001CA7EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C884FC9154FDBEE001CA7EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C884FD0154FDCD5001CA7EA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6C884FD1154FDCD5001CA7EA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6C884FD2154FDCD5001CA7EA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6C884FD7154FDE13001CA7EA /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		6C884FD9154FDE19001CA7EA /* 110.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 110.gif; sourceTree = "<group>"; };
+		6C884FDB154FDE1F001CA7EA /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		6C884FDE154FDF0B001CA7EA /* 119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 119.png; sourceTree = "<group>"; };
+		6C884FE0154FE372001CA7EA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6C884FE1154FE372001CA7EA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6C884FE2154FE372001CA7EA /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		6C884FE9155006BA001CA7EA /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6C884FEA155006BA001CA7EA /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		6C884FEB155006BA001CA7EA /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		6C884FEC155006BA001CA7EA /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		6C884FED155006BA001CA7EA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6C884FEE155006BA001CA7EA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6C884FF615500907001CA7EA /* 112.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 112.jpg; sourceTree = "<group>"; };
+		6C884FF815500E28001CA7EA /* emergency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emergency.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C884FB2154FDBEE001CA7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72E5781562AEE600AFAE35 /* MediaPlayer.framework in Frameworks */,
+				6C72E5751562AC0500AFAE35 /* CoreTelephony.framework in Frameworks */,
+				6C884FBA154FDBEE001CA7EA /* UIKit.framework in Frameworks */,
+				6C884FBC154FDBEE001CA7EA /* Foundation.framework in Frameworks */,
+				6C884FBE154FDBEE001CA7EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C884FAA154FDBEE001CA7EA = {
+			isa = PBXGroup;
+			children = (
+				6C72E5771562AEE600AFAE35 /* MediaPlayer.framework */,
+				6C72E5741562AC0500AFAE35 /* CoreTelephony.framework */,
+				6C884FBF154FDBEE001CA7EA /* EmergentCallApp */,
+				6C884FB8154FDBEE001CA7EA /* Frameworks */,
+				6C884FB6154FDBEE001CA7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C884FB6154FDBEE001CA7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C884FB5154FDBEE001CA7EA /* EmergentCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C884FB8154FDBEE001CA7EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C884FB9154FDBEE001CA7EA /* UIKit.framework */,
+				6C884FBB154FDBEE001CA7EA /* Foundation.framework */,
+				6C884FBD154FDBEE001CA7EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C884FBF154FDBEE001CA7EA /* EmergentCallApp */ = {
+			isa = PBXGroup;
+			children = (
+				6C884FDD154FDE2B001CA7EA /* assets */,
+				6C884FC8154FDBEE001CA7EA /* AppDelegate.h */,
+				6C884FC9154FDBEE001CA7EA /* AppDelegate.m */,
+				6C884FC0154FDBEE001CA7EA /* Supporting Files */,
+				6C884FD0154FDCD5001CA7EA /* MainViewController.h */,
+				6C884FD1154FDCD5001CA7EA /* MainViewController.m */,
+				6C884FD2154FDCD5001CA7EA /* MainViewController.xib */,
+				6C884FE0154FE372001CA7EA /* SettingsViewController.h */,
+				6C884FE1154FE372001CA7EA /* SettingsViewController.m */,
+				6C884FE2154FE372001CA7EA /* SettingsViewController.xib */,
+			);
+			path = EmergentCallApp;
+			sourceTree = "<group>";
+		};
+		6C884FC0154FDBEE001CA7EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C884FC1154FDBEE001CA7EA /* EmergentCall-Info.plist */,
+				6C884FC2154FDBEE001CA7EA /* InfoPlist.strings */,
+				6C884FC5154FDBEE001CA7EA /* main.m */,
+				6C884FC7154FDBEE001CA7EA /* EmergentCall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C884FDD154FDE2B001CA7EA /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C884FF815500E28001CA7EA /* emergency.jpg */,
+				6C884FF615500907001CA7EA /* 112.jpg */,
+				6C884FE9155006BA001CA7EA /* Icon-72.png */,
+				6C884FEA155006BA001CA7EA /* Icon-Small-50.png */,
+				6C884FEB155006BA001CA7EA /* Icon-Small.png */,
+				6C884FEC155006BA001CA7EA /* Icon-Small@2x.png */,
+				6C884FED155006BA001CA7EA /* Icon.png */,
+				6C884FEE155006BA001CA7EA /* Icon@2x.png */,
+				6C884FDB154FDE1F001CA7EA /* love.png */,
+				6C884FD9154FDE19001CA7EA /* 110.gif */,
+				6C884FD7154FDE13001CA7EA /* home.jpg */,
+				6C884FDE154FDF0B001CA7EA /* 119.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C884FB4154FDBEE001CA7EA /* EmergentCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C884FCD154FDBEE001CA7EA /* Build configuration list for PBXNativeTarget "EmergentCall" */;
+			buildPhases = (
+				6C884FB1154FDBEE001CA7EA /* Sources */,
+				6C884FB2154FDBEE001CA7EA /* Frameworks */,
+				6C884FB3154FDBEE001CA7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmergentCall;
+			productName = EmergentCallApp;
+			productReference = 6C884FB5154FDBEE001CA7EA /* EmergentCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C884FAC154FDBEE001CA7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6C884FAF154FDBEE001CA7EA /* Build configuration list for PBXProject "EmergentCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C884FAA154FDBEE001CA7EA;
+			productRefGroup = 6C884FB6154FDBEE001CA7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C884FB4154FDBEE001CA7EA /* EmergentCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C884FB3154FDBEE001CA7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C884FC4154FDBEE001CA7EA /* InfoPlist.strings in Resources */,
+				6C884FD4154FDCD5001CA7EA /* MainViewController.xib in Resources */,
+				6C884FD8154FDE13001CA7EA /* home.jpg in Resources */,
+				6C884FDA154FDE19001CA7EA /* 110.gif in Resources */,
+				6C884FDC154FDE1F001CA7EA /* love.png in Resources */,
+				6C884FDF154FDF0B001CA7EA /* 119.png in Resources */,
+				6C884FE4154FE372001CA7EA /* SettingsViewController.xib in Resources */,
+				6C884FEF155006BA001CA7EA /* Icon-72.png in Resources */,
+				6C884FF0155006BA001CA7EA /* Icon-Small-50.png in Resources */,
+				6C884FF1155006BA001CA7EA /* Icon-Small.png in Resources */,
+				6C884FF2155006BA001CA7EA /* Icon-Small@2x.png in Resources */,
+				6C884FF3155006BA001CA7EA /* Icon.png in Resources */,
+				6C884FF4155006BA001CA7EA /* Icon@2x.png in Resources */,
+				6C884FF715500907001CA7EA /* 112.jpg in Resources */,
+				6C884FF915500E28001CA7EA /* emergency.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C884FB1154FDBEE001CA7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C884FC6154FDBEE001CA7EA /* main.m in Sources */,
+				6C884FCA154FDBEE001CA7EA /* AppDelegate.m in Sources */,
+				6C884FD3154FDCD5001CA7EA /* MainViewController.m in Sources */,
+				6C884FE3154FE372001CA7EA /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C884FC2154FDBEE001CA7EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C884FC3154FDBEE001CA7EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C884FCB154FDBEE001CA7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C884FCC154FDBEE001CA7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C884FCE154FDBEE001CA7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmergentCallApp/EmergentCall-Prefix.pch";
+				INFOPLIST_FILE = "EmergentCallApp/EmergentCall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = EmergentCall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C884FCF154FDBEE001CA7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmergentCallApp/EmergentCall-Prefix.pch";
+				INFOPLIST_FILE = "EmergentCallApp/EmergentCall-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = EmergentCall;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C884FAF154FDBEE001CA7EA /* Build configuration list for PBXProject "EmergentCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C884FCB154FDBEE001CA7EA /* Debug */,
+				6C884FCC154FDBEE001CA7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C884FCD154FDBEE001CA7EA /* Build configuration list for PBXNativeTarget "EmergentCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C884FCE154FDBEE001CA7EA /* Debug */,
+				6C884FCF154FDBEE001CA7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C884FAC154FDBEE001CA7EA /* Project object */;
+}
